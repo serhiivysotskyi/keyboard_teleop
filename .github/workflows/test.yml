@@ -1,14 +1,24 @@
 name: Build ROS Deb
 run-name: ${{ github.actor }} is testing out building Debs from ROS package 🚀
-on: [push]
+on:
+  push:
+    branches:
+      - master
 jobs:
   build-ros-deb:
     runs-on: ubuntu-22.04
+
     steps:
-      - uses: jspricke/ros-deb-builder-action@main
+      - name: Install curl
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl tree
+
+      - name: Build ROS Deb
+        uses: jspricke/ros-deb-builder-action@main
         with:
           DEB_DISTRO: jammy
-          ROS_DISTRO: humble
-          REPOS_FILE: https://raw.githubusercontent.com/tonynajjar/keyboard_teleop/master/sources.repos
+          ROS_DISTRO: iron
+          REPOS_FILE: https://raw.githubusercontent.com/serhiivysotskyi/keyboard_teleop/master/sources.repos
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
