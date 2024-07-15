@@ -20,5 +20,5 @@ jobs:
           DEB_DISTRO: jammy
           ROS_DISTRO: iron
           REPOS_FILE: https://raw.githubusercontent.com/serhiivysotskyi/keyboard_teleop/master/sources.repos
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SERHII_GITHUB_TOKEN }}
           SQUASH_HISTORY: true
