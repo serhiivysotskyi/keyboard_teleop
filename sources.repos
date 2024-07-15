@@ -1,8 +1,4 @@
 repositories:
-  keyboard_teleop:
-    type: git
-    url: https://github.com/tonynajjar/keyboard_teleop
-    version: iron
   rclcpp:
     # remove once events exec is merged for composable nodes
     type: git
