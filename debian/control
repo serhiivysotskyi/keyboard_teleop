@@ -1,0 +1,12 @@
+Source: keyboard_teleop
+Section: latest
+Priority: optional
+Maintainer: Serhii Vysotskyi <test@gtest.com>
+Build-Depends: debhelper (>= 9)
+
+Package: serhii_test
+Architecture: arm64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Built-Using: ${misc:Built-Using}
+Description: Test desk to show me
+Homepage:  https://github.com/serhiivysotskyi/keyboard_teleop
