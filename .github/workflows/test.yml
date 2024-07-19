@@ -22,3 +22,10 @@ jobs:
           REPOS_FILE: https://raw.githubusercontent.com/serhiivysotskyi/keyboard_teleop/master/sources.repos
           GITHUB_TOKEN: ${{ secrets.SERHII_GITHUB_TOKEN }}
           SQUASH_HISTORY: true
+          output_dir: debs
+      
+      - name: Upload .deb package
+        uses: actions/upload-artifact@v2
+        with:
+          name: debian-packages
+          path: debs/*.deb
