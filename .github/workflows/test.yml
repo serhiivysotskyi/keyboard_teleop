@@ -22,10 +22,12 @@ jobs:
           REPOS_FILE: https://raw.githubusercontent.com/serhiivysotskyi/keyboard_teleop/master/sources.repos
           GITHUB_TOKEN: ${{ secrets.SERHII_GITHUB_TOKEN }}
           SQUASH_HISTORY: true
-          output_dir: debs
       
-      - name: Upload .deb package
-        uses: actions/upload-artifact@v2
-        with:
-          name: debian-packages
-          path: ./*.deb
+      - shell: bash
+        env:
+          NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
+          NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
+        run: |
+          tree;
+          deb_file=$(find . -name "*.deb");
+          curl -v -u "$NEXUS_USERNAME:$NEXUS_PASSWORD" -H "Content-Type: multipart/form-data" --data-binary "@$deb_file" "http://13.51.238.198:8080/repository/keyboard_teleop/";
