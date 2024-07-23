@@ -1,4 +1,4 @@
-Source: keyboard_teleop
+Source: test_ros2
 Section: latest
 Priority: optional
 Maintainer: Serhii Vysotskyi <test@gtest.com>
