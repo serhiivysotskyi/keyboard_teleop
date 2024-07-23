@@ -1,10 +1,10 @@
-Source: test_ros2
+Source: keyboard_teleop
 Section: latest
 Priority: optional
 Maintainer: Serhii Vysotskyi <test@gtest.com>
 Build-Depends: debhelper (>= 9)
 
-Package: serhii_test
+Package: keyboard_teleop
 Architecture: arm64
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Built-Using: ${misc:Built-Using}
