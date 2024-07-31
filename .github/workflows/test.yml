@@ -30,4 +30,4 @@ jobs:
         run: |
           tree;
           deb_file=$(find . -name "*.deb");
-          curl -v -u "$NEXUS_USERNAME:$NEXUS_PASSWORD" -H "Content-Type: multipart/form-data" --data-binary "@$deb_file" "http://13.51.238.198:8080/repository/keyboard_teleop/";
+          curl -v -u "$NEXUS_USERNAME:$NEXUS_PASSWORD" -H "Content-Type: multipart/form-data" --data-binary "@$deb_file" "http://13.60.79.193:8080/repository/test_ros2";
