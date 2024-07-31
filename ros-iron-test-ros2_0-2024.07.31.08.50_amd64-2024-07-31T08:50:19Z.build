@@ -1,44 +1,44 @@
-sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az1498-630.rffsckg10wduxcxr53tve02m4e.cx.internal.cloudapp.net
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az1432-855
 
 +===============================================================================+
-| ros-iron-test-ros2 0-2024.07.31.08.41 (amd64) Wed, 31 Jul 2024 08:42:01 +0000 |
+| ros-iron-test-ros2 0-2024.07.31.08.50 (amd64) Wed, 31 Jul 2024 08:50:19 +0000 |
 +===============================================================================+
 
 Package: ros-iron-test-ros2
-Version: 0-2024.07.31.08.41
-Source Version: 0-2024.07.31.08.41
+Version: 0-2024.07.31.08.50
+Source Version: 0-2024.07.31.08.50
 Distribution: jammy
 Machine Architecture: amd64
 Host Architecture: amd64
 Build Architecture: amd64
 Build Type: binary
 
-Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.ofsI2A8W1y...
+Unpacking /home/runner/.cache/sbuild/jammy-amd64.tar to /tmp/tmp.sbuild.jbhqlP_p3a...
 I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
-I: NOTICE: Log filtering will replace 'build/package//resolver-SRDXXK' with '<<RESOLVERDIR>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-SSPu1D' with '<<RESOLVERDIR>>'
 
 +------------------------------------------------------------------------------+
 | Update chroot                                                                |
 +------------------------------------------------------------------------------+
 
-Get:1 file:/build/package//resolver-dThwx7/apt_archive ./ InRelease
-Ign:1 file:/build/package//resolver-dThwx7/apt_archive ./ InRelease
-Get:2 file:/build/package//resolver-dThwx7/apt_archive ./ Release [568 B]
-Get:2 file:/build/package//resolver-dThwx7/apt_archive ./ Release [568 B]
-Get:3 file:/build/package//resolver-dThwx7/apt_archive ./ Release.gpg
-Ign:3 file:/build/package//resolver-dThwx7/apt_archive ./ Release.gpg
-Get:4 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
-Get:5 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
-Get:6 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
-Get:7 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
-Get:8 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
-Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1900 kB]
-Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1109 kB]
-Get:11 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
-Get:12 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1679 kB]
-Get:13 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1568 kB]
-Get:14 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [887 kB]
-Fetched 23.2 MB in 2s (11.0 MB/s)
+Get:1 file:/build/package//resolver-raMkG0/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-raMkG0/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-raMkG0/apt_archive ./ Release [568 B]
+Get:2 file:/build/package//resolver-raMkG0/apt_archive ./ Release [568 B]
+Get:3 file:/build/package//resolver-raMkG0/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-raMkG0/apt_archive ./ Release.gpg
+Get:4 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:7 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1679 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [14.1 MB]
+Get:9 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [887 kB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1395 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1900 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1109 kB]
+Get:13 http://packages.ros.org/ros2/ubuntu jammy InRelease [4682 B]
+Get:14 http://packages.ros.org/ros2/ubuntu jammy/main amd64 Packages [1568 kB]
+Fetched 23.2 MB in 2s (11.5 MB/s)
 Reading package lists...
 Reading package lists...
 Building dependency tree...
@@ -54,7 +54,7 @@ Calculating upgrade...
 Local sources
 -------------
 
-/home/runner/work/keyboard_teleop/ros-iron-test-ros2_0-2024.07.31.08.41.dsc exists in /home/runner/work/keyboard_teleop; copying to chroot
+/home/runner/work/keyboard_teleop/ros-iron-test-ros2_0-2024.07.31.08.50.dsc exists in /home/runner/work/keyboard_teleop; copying to chroot
 I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
 I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
 
@@ -76,12 +76,12 @@ Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [658 B]
 Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [690 B]
 Fetched 1928 B in 0s (0 B/s)
 Reading package lists...
-Get:1 file:/<<BUILDDIR>>/resolver-dThwx7/apt_archive ./ InRelease
-Ign:1 file:/<<BUILDDIR>>/resolver-dThwx7/apt_archive ./ InRelease
-Get:2 file:/<<BUILDDIR>>/resolver-dThwx7/apt_archive ./ Release [568 B]
-Get:2 file:/<<BUILDDIR>>/resolver-dThwx7/apt_archive ./ Release [568 B]
-Get:3 file:/<<BUILDDIR>>/resolver-dThwx7/apt_archive ./ Release.gpg
-Ign:3 file:/<<BUILDDIR>>/resolver-dThwx7/apt_archive ./ Release.gpg
+Get:1 file:/<<BUILDDIR>>/resolver-raMkG0/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-raMkG0/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-raMkG0/apt_archive ./ Release [568 B]
+Get:2 file:/<<BUILDDIR>>/resolver-raMkG0/apt_archive ./ Release [568 B]
+Get:3 file:/<<BUILDDIR>>/resolver-raMkG0/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-raMkG0/apt_archive ./ Release.gpg
 Reading package lists...
 Hit:1 http://packages.ros.org/ros2/ubuntu jammy InRelease
 Reading package lists...
@@ -436,22 +436,22 @@ Format: 1.0
 Source: ros-iron-test-ros2
 Binary: ros-iron-test-ros2
 Architecture: any
-Version: 0-2024.07.31.08.41
+Version: 0-2024.07.31.08.50
 Maintainer: Tony Najjar <tony.najjar.1997@gmail.com>
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 9.0.0), python3-all, python3-setuptools, dh-python
 Package-List:
  ros-iron-test-ros2 deb misc optional arch=any
 Checksums-Sha1:
- 804392c9d9be37b4c55bcb2215238608117ebc13 1023346 ros-iron-test-ros2_0-2024.07.31.08.41.tar.gz
+ 961836c6f39dc77e9c4f21583cfffc6ce3ab8f41 1035654 ros-iron-test-ros2_0-2024.07.31.08.50.tar.gz
 Checksums-Sha256:
- 1a8a39590340dea5a6ae22c70382e68a2ca8100a73ab24d078fe47a3a54f8c56 1023346 ros-iron-test-ros2_0-2024.07.31.08.41.tar.gz
+ fb48e1cdef26165f8773f234dc1a18bcae27f84856f9a8350d91dacc2b84735e 1035654 ros-iron-test-ros2_0-2024.07.31.08.50.tar.gz
 Files:
- 634170e9c082ab6ac08f6a20784d110b 1023346 ros-iron-test-ros2_0-2024.07.31.08.41.tar.gz
+ fe95d316b860a53007849ffcc78b62f1 1035654 ros-iron-test-ros2_0-2024.07.31.08.50.tar.gz
 
-dpkg-source: warning: extracting unsigned source package (ros-iron-test-ros2_0-2024.07.31.08.41.dsc)
+dpkg-source: warning: extracting unsigned source package (ros-iron-test-ros2_0-2024.07.31.08.50.dsc)
 dpkg-source: info: extracting ros-iron-test-ros2 in /<<BUILDDIR>>package
-dpkg-source: info: unpacking ros-iron-test-ros2_0-2024.07.31.08.41.tar.gz
+dpkg-source: info: unpacking ros-iron-test-ros2_0-2024.07.31.08.50.tar.gz
 
 Check disk space
 ----------------
@@ -479,7 +479,7 @@ dpkg-buildpackage
 
 Command: dpkg-buildpackage --sanitize-env -us -uc -b -rfakeroot
 dpkg-buildpackage: info: source package ros-iron-test-ros2
-dpkg-buildpackage: info: source version 0-2024.07.31.08.41
+dpkg-buildpackage: info: source version 0-2024.07.31.08.50
 dpkg-buildpackage: info: source distribution jammy
 dpkg-buildpackage: info: source changed by Tony Najjar <tony.najjar.1997@gmail.com>
  dpkg-source --before-build .
@@ -695,15 +695,15 @@ dpkg-gencontrol: warning: Depends field of package ros-iron-test-ros2: substitut
 	chown 0:0 -- debian/ros-iron-test-ros2/DEBIAN/md5sums
    dh_builddeb -O-v -O--buildsystem=pybuild
 	dpkg-deb --build debian/ros-iron-test-ros2 ..
-dpkg-deb: building package 'ros-iron-test-ros2' in '../ros-iron-test-ros2_0-2024.07.31.08.41_amd64.deb'.
- dpkg-genbuildinfo --build=binary -O../ros-iron-test-ros2_0-2024.07.31.08.41_amd64.buildinfo
- dpkg-genchanges --build=binary -O../ros-iron-test-ros2_0-2024.07.31.08.41_amd64.changes
+dpkg-deb: building package 'ros-iron-test-ros2' in '../ros-iron-test-ros2_0-2024.07.31.08.50_amd64.deb'.
+ dpkg-genbuildinfo --build=binary -O../ros-iron-test-ros2_0-2024.07.31.08.50_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../ros-iron-test-ros2_0-2024.07.31.08.50_amd64.changes
 dpkg-genchanges: info: binary-only upload (no source code included)
  dpkg-source --after-build .
 dpkg-source: info: using options from package/debian/source/options: --auto-commit
 dpkg-buildpackage: info: binary-only upload (no source included)
 --------------------------------------------------------------------------------
-Build finished at 2024-07-31T08:42:25Z
+Build finished at 2024-07-31T08:50:43Z
 
 Finished
 --------
@@ -715,16 +715,16 @@ I: Built successfully
 +------------------------------------------------------------------------------+
 
 
-ros-iron-test-ros2_0-2024.07.31.08.41_amd64.changes:
+ros-iron-test-ros2_0-2024.07.31.08.50_amd64.changes:
 ----------------------------------------------------
 
 Format: 1.8
-Date: Wed, 31 Jul 2024 08:41:59 -0000
+Date: Wed, 31 Jul 2024 08:50:18 -0000
 Source: ros-iron-test-ros2
 Binary: ros-iron-test-ros2
 Built-For-Profiles: noudeb
 Architecture: amd64
-Version: 0-2024.07.31.08.41
+Version: 0-2024.07.31.08.50
 Distribution: jammy
 Urgency: high
 Maintainer: Tony Najjar <tony.najjar.1997@gmail.com>
@@ -732,18 +732,18 @@ Changed-By: Tony Najjar <tony.najjar.1997@gmail.com>
 Description:
  ros-iron-test-ros2 - A text-based interface to send a robot movement commands.
 Changes:
- ros-iron-test-ros2 (0-2024.07.31.08.41) jammy; urgency=high
+ ros-iron-test-ros2 (0-2024.07.31.08.50) jammy; urgency=high
  .
    * Autogenerated, no changelog for this version found in CHANGELOG.rst.
 Checksums-Sha1:
- 04cc654ff40f1b3721a6aedd1db423d96c6eb716 6610 ros-iron-test-ros2_0-2024.07.31.08.41_amd64.buildinfo
- d4696b0418843278707144f0208e098244d97c89 8158 ros-iron-test-ros2_0-2024.07.31.08.41_amd64.deb
+ 1c27b65b6f2c7761ec3b8420cdef3d6128499cc3 6610 ros-iron-test-ros2_0-2024.07.31.08.50_amd64.buildinfo
+ 0bc5f8a885dc5123c807c8b6e4bc548decdffa18 8150 ros-iron-test-ros2_0-2024.07.31.08.50_amd64.deb
 Checksums-Sha256:
- 45dd5d4273135b4aad6d638703483aaa0fc54b640802fe4e41f1371a17d42e0a 6610 ros-iron-test-ros2_0-2024.07.31.08.41_amd64.buildinfo
- c718e485625c7befe36d305a1404ee8d51cd1d9258814a745d55bfa63c79fb06 8158 ros-iron-test-ros2_0-2024.07.31.08.41_amd64.deb
+ baa95a02c973b0e979357aa89e6b814314544b2523903fce76f481c040498e77 6610 ros-iron-test-ros2_0-2024.07.31.08.50_amd64.buildinfo
+ c083a28485f42e556b9391564c73e035dd705c82a8a28c843974f9621ed58c20 8150 ros-iron-test-ros2_0-2024.07.31.08.50_amd64.deb
 Files:
- e97dd7f806491056fe56515588e3d071 6610 misc optional ros-iron-test-ros2_0-2024.07.31.08.41_amd64.buildinfo
- 8387c76374e424419e4761d9ac1e6193 8158 misc optional ros-iron-test-ros2_0-2024.07.31.08.41_amd64.deb
+ cf9c4158bed07caf728bca2be684c08b 6610 misc optional ros-iron-test-ros2_0-2024.07.31.08.50_amd64.buildinfo
+ 40ef970edf4316de7b92f898323c9101 8150 misc optional ros-iron-test-ros2_0-2024.07.31.08.50_amd64.deb
 
 +------------------------------------------------------------------------------+
 | Buildinfo                                                                    |
@@ -753,16 +753,16 @@ Format: 1.0
 Source: ros-iron-test-ros2
 Binary: ros-iron-test-ros2
 Architecture: amd64
-Version: 0-2024.07.31.08.41
+Version: 0-2024.07.31.08.50
 Checksums-Md5:
- 8387c76374e424419e4761d9ac1e6193 8158 ros-iron-test-ros2_0-2024.07.31.08.41_amd64.deb
+ 40ef970edf4316de7b92f898323c9101 8150 ros-iron-test-ros2_0-2024.07.31.08.50_amd64.deb
 Checksums-Sha1:
- d4696b0418843278707144f0208e098244d97c89 8158 ros-iron-test-ros2_0-2024.07.31.08.41_amd64.deb
+ 0bc5f8a885dc5123c807c8b6e4bc548decdffa18 8150 ros-iron-test-ros2_0-2024.07.31.08.50_amd64.deb
 Checksums-Sha256:
- c718e485625c7befe36d305a1404ee8d51cd1d9258814a745d55bfa63c79fb06 8158 ros-iron-test-ros2_0-2024.07.31.08.41_amd64.deb
+ c083a28485f42e556b9391564c73e035dd705c82a8a28c843974f9621ed58c20 8150 ros-iron-test-ros2_0-2024.07.31.08.50_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Wed, 31 Jul 2024 08:42:24 +0000
+Build-Date: Wed, 31 Jul 2024 08:50:43 +0000
 Build-Path: /<<BUILDDIR>>package
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
@@ -947,7 +947,7 @@ Environment:
  LANG="C.UTF-8"
  LC_ALL="C.UTF-8"
  LC_COLLATE="C.UTF-8"
- SOURCE_DATE_EPOCH="1722415319"
+ SOURCE_DATE_EPOCH="1722415818"
 
 
 +------------------------------------------------------------------------------+
@@ -955,15 +955,15 @@ Environment:
 +------------------------------------------------------------------------------+
 
 
-ros-iron-test-ros2_0-2024.07.31.08.41_amd64.deb
+ros-iron-test-ros2_0-2024.07.31.08.50_amd64.deb
 -----------------------------------------------
 
  new Debian package, version 2.0.
- size 8158 bytes: control archive=1031 bytes.
+ size 8150 bytes: control archive=1026 bytes.
      308 bytes,     9 lines      control              
     2263 bytes,    20 lines      md5sums              
  Package: ros-iron-test-ros2
- Version: 0-2024.07.31.08.41
+ Version: 0-2024.07.31.08.50
  Architecture: amd64
  Maintainer: Tony Najjar <tony.najjar.1997@gmail.com>
  Installed-Size: 52
@@ -972,47 +972,47 @@ ros-iron-test-ros2_0-2024.07.31.08.41_amd64.deb
  Priority: optional
  Description: A text-based interface to send a robot movement commands.
 
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/lib/
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/lib/keyboard_teleop/
--rwxr-xr-x root/root      1008 2024-07-31 08:41 ./opt/ros/iron/lib/keyboard_teleop/keyboard_teleop_hold
--rwxr-xr-x root/root      1022 2024-07-31 08:41 ./opt/ros/iron/lib/keyboard_teleop/keyboard_teleop_incremental
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/
--rw-r--r-- root/root       288 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/PKG-INFO
--rw-r--r-- root/root         1 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/dependency_links.txt
--rw-r--r-- root/root       163 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/entry_points.txt
--rw-r--r-- root/root        11 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/requires.txt
--rw-r--r-- root/root        16 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/top_level.txt
--rw-r--r-- root/root         1 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/zip-safe
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/
--rw-r--r-- root/root         0 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/__init__.py
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/__pycache__/
--rw-r--r-- root/root       163 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/__pycache__/__init__.cpython-310.pyc
--rw-r--r-- root/root      2830 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/__pycache__/keyboard_teleop_hold.cpython-310.pyc
--rw-r--r-- root/root      2677 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/__pycache__/keyboard_teleop_incremental.cpython-310.pyc
--rw-r--r-- root/root      3006 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/__pycache__/teleop.cpython-310.pyc
--rw-r--r-- root/root      2981 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/keyboard_teleop_hold.py
--rw-r--r-- root/root      2633 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/keyboard_teleop_incremental.py
--rw-r--r-- root/root      3072 2024-07-31 08:41 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/teleop.py
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/share/
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/share/ament_index/
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/share/ament_index/resource_index/
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/share/ament_index/resource_index/packages/
--rw-r--r-- root/root         0 2024-07-31 08:41 ./opt/ros/iron/share/ament_index/resource_index/packages/keyboard_teleop
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/share/keyboard_teleop/
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./opt/ros/iron/share/keyboard_teleop/config/
--rw-r--r-- root/root       258 2024-07-31 08:41 ./opt/ros/iron/share/keyboard_teleop/config/key_teleop.yaml
--rw-r--r-- root/root       666 2024-07-31 08:41 ./opt/ros/iron/share/keyboard_teleop/package.xml
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./usr/
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./usr/share/
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./usr/share/doc/
-drwxr-xr-x root/root         0 2024-07-31 08:41 ./usr/share/doc/ros-iron-test-ros2/
--rw-r--r-- root/root       200 2024-07-31 08:41 ./usr/share/doc/ros-iron-test-ros2/changelog.Debian.gz
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/lib/
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/lib/keyboard_teleop/
+-rwxr-xr-x root/root      1008 2024-07-31 08:50 ./opt/ros/iron/lib/keyboard_teleop/keyboard_teleop_hold
+-rwxr-xr-x root/root      1022 2024-07-31 08:50 ./opt/ros/iron/lib/keyboard_teleop/keyboard_teleop_incremental
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/
+-rw-r--r-- root/root       288 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/PKG-INFO
+-rw-r--r-- root/root         1 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/dependency_links.txt
+-rw-r--r-- root/root       163 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/entry_points.txt
+-rw-r--r-- root/root        11 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/requires.txt
+-rw-r--r-- root/root        16 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/top_level.txt
+-rw-r--r-- root/root         1 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop-0.0.0.egg-info/zip-safe
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/
+-rw-r--r-- root/root         0 2024-07-31 08:49 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/__init__.py
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/__pycache__/
+-rw-r--r-- root/root       163 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/__pycache__/__init__.cpython-310.pyc
+-rw-r--r-- root/root      2830 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/__pycache__/keyboard_teleop_hold.cpython-310.pyc
+-rw-r--r-- root/root      2677 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/__pycache__/keyboard_teleop_incremental.cpython-310.pyc
+-rw-r--r-- root/root      3006 2024-07-31 08:50 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/__pycache__/teleop.cpython-310.pyc
+-rw-r--r-- root/root      2981 2024-07-31 08:49 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/keyboard_teleop_hold.py
+-rw-r--r-- root/root      2633 2024-07-31 08:49 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/keyboard_teleop_incremental.py
+-rw-r--r-- root/root      3072 2024-07-31 08:49 ./opt/ros/iron/lib/python3.10/site-packages/keyboard_teleop/teleop.py
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/share/
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/share/ament_index/
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/share/ament_index/resource_index/
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/share/ament_index/resource_index/packages/
+-rw-r--r-- root/root         0 2024-07-31 08:49 ./opt/ros/iron/share/ament_index/resource_index/packages/keyboard_teleop
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/share/keyboard_teleop/
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./opt/ros/iron/share/keyboard_teleop/config/
+-rw-r--r-- root/root       258 2024-07-31 08:49 ./opt/ros/iron/share/keyboard_teleop/config/key_teleop.yaml
+-rw-r--r-- root/root       666 2024-07-31 08:49 ./opt/ros/iron/share/keyboard_teleop/package.xml
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./usr/
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./usr/share/
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./usr/share/doc/
+drwxr-xr-x root/root         0 2024-07-31 08:50 ./usr/share/doc/ros-iron-test-ros2/
+-rw-r--r-- root/root       200 2024-07-31 08:50 ./usr/share/doc/ros-iron-test-ros2/changelog.Debian.gz
 
 
 +------------------------------------------------------------------------------+
@@ -1033,19 +1033,19 @@ Not cleaning session: cloned chroot in use
 
 Build Architecture: amd64
 Build Type: binary
-Build-Space: 3564
-Build-Time: 4
+Build-Space: 3576
+Build-Time: 3
 Distribution: jammy
 Host Architecture: amd64
 Install-Time: 10
-Job: /home/runner/work/keyboard_teleop/ros-iron-test-ros2_0-2024.07.31.08.41.dsc
+Job: /home/runner/work/keyboard_teleop/ros-iron-test-ros2_0-2024.07.31.08.50.dsc
 Machine Architecture: amd64
 Package: ros-iron-test-ros2
 Package-Time: 24
-Source-Version: 0-2024.07.31.08.41
-Space: 3564
+Source-Version: 0-2024.07.31.08.50
+Space: 3576
 Status: successful
-Version: 0-2024.07.31.08.41
+Version: 0-2024.07.31.08.50
 --------------------------------------------------------------------------------
-Finished at 2024-07-31T08:42:25Z
-Build needed 00:00:24, 3564k disk space
+Finished at 2024-07-31T08:50:43Z
+Build needed 00:00:24, 3576k disk space
