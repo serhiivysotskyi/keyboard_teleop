@@ -1,16 +1,16 @@
 Package: ros-iron-test-ros2
 Architecture: amd64
-Version: 0-2024.07.31.09.52
+Version: 0-2024.07.31.09.55
 Priority: optional
 Section: misc
 Maintainer: Tony Najjar <tony.najjar.1997@gmail.com>
 Installed-Size: 52
 Depends: pynput, ros-iron-geometry-msgs, ros-iron-rclpy
-Filename: ./ros-iron-test-ros2_0-2024.07.31.09.52_amd64.deb
-Size: 8166
-MD5sum: 35a11a9dd277c8156e4a049f4a685933
-SHA1: 69bd7b8166e2a81e224cad76dd2d349c947aede8
-SHA256: 4cbafe75e939af26792bda05a96b1faf46424b4dc393f48d028686dc52bc4de9
-SHA512: 28f368964c69c1d53e5a0f4181ec70298ff819758bebf518c8d08ead287d9bdeb4fd7035a4b71b48fbe8717e1f9f948c79417ddcfb965c5db9d566f38119ed1d
+Filename: ./ros-iron-test-ros2_0-2024.07.31.09.55_amd64.deb
+Size: 8158
+MD5sum: 02f1b25de24b430f6fd8e1c4df7650ba
+SHA1: 8553a4a12edfd283049ae7cce21562a0f8c3d89b
+SHA256: 82bede2a187b1bc76ebd61ff9fe2f0b25c89359ef7f0e97c4a349e4e43ad29be
+SHA512: 8af45d42a34c13b28fd449d32ed574accf40722f88443ed76a600486d8ef0c520038288451b4328bfb5202b5950ead9303a9482fd3f3825846e726b8e49d550b
 Description: A text-based interface to send a robot movement commands.
 
